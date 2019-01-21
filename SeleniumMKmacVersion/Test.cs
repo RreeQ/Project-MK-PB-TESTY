@@ -42,11 +42,11 @@ namespace SeleniumMKmacVersion
 .Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementExists((By.CssSelector("._r5"))));
             _driver.FindElement(By.CssSelector("._r5")).Click();
 
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(5000);
 
             _driver.FindElement(By.CssSelector(".NuxExtensionUpsell__optionalSkip")).Click();
 
-            System.Threading.Thread.Sleep(10000);
+            System.Threading.Thread.Sleep(5000);
 
             _driver.FindElement(By.CssSelector(".NuxPickerInterestsGrid > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)")).Click();
             _driver.FindElement(By.CssSelector(".NuxPickerInterestsGrid > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > button:nth-child(1)")).Click();
