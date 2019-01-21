@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{A17AB609-F2B2-4270-9C5C-39EF1B65E854}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumMKmacVersion/Test.cs">
+    <Files>
+      <File FileName="SeleniumMKmacVersion/Test.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Project-MK-PB-TESTY" expanded="True">
+            <Node name="Project-MK-PB-TESTY" expanded="True" />
+            <Node name="SeleniumMKmacVersion" expanded="True" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Project-MK-PB-TESTY" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Project-MK-PB-TESTY PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SeleniumMKmacVersion FirstBuild="True" />
+</Properties>

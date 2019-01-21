@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Project-MK-PB-TESTY", "Project-MK-PB-TESTY\Project-MK-PB-TESTY.csproj", "{A17AB609-F2B2-4270-9C5C-39EF1B65E854}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumMKmacVersion", "SeleniumMKmacVersion\SeleniumMKmacVersion.csproj", "{7D455600-27E6-42CC-854F-21C5CACF0079}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{A17AB609-F2B2-4270-9C5C-39EF1B65E854}.Debug|x86.Build.0 = Debug|x86
 		{A17AB609-F2B2-4270-9C5C-39EF1B65E854}.Release|x86.ActiveCfg = Release|x86
 		{A17AB609-F2B2-4270-9C5C-39EF1B65E854}.Release|x86.Build.0 = Release|x86
+		{7D455600-27E6-42CC-854F-21C5CACF0079}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7D455600-27E6-42CC-854F-21C5CACF0079}.Debug|x86.Build.0 = Debug|Any CPU
+		{7D455600-27E6-42CC-854F-21C5CACF0079}.Release|x86.ActiveCfg = Release|Any CPU
+		{7D455600-27E6-42CC-854F-21C5CACF0079}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
