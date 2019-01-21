@@ -1,20 +1,14 @@
 ﻿using System;
 namespace ProjectMKPBTESTY
 {
-    public interface ICryptoCurrency
+    interface ICryptoCurrency
     {
         ICryptoCurrency Add(ICryptoCurrency value);
-        ICryptoCurrency Multiply(ICryptoCurrency value);
+        ICryptoCurrency Multiply(int factor);
         ICryptoCurrency Substract(ICryptoCurrency value);
         ICryptoCurrency Negate();
-
-        ICryptoCurrency AddCrypto(CryptoCurrency c);
+        ICryptoCurrency AddCrypto(CryptoCurrency value);
         ICryptoCurrency AddCryptoVault(Vault v);
-
-        bool isZero { get; }
-
-        
-
-
+        bool IsZero { get; }
     }
 }

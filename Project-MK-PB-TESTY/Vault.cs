@@ -3,7 +3,7 @@ using System.Collections;
 using System.Text;
 namespace ProjectMKPBTESTY
 {
-    public class Vault : ICryptoCurrency
+    class Vault : ICryptoCurrency
     {
         private ArrayList CryptoCurrencies = new ArrayList(5);
 
@@ -30,7 +30,7 @@ namespace ProjectMKPBTESTY
         {
             for (int i = 0; i < v.Length; i++)
             {
-                if(!v[i].isZero)
+                if(!v[i].IsZero)
                 {
                     AppendCrypto(v[i]);
                 }
@@ -119,7 +119,7 @@ namespace ProjectMKPBTESTY
             }
             CryptoCurrencies.Remove(old);
             ICryptoCurrency sum = old.Add(c);
-            if (sum.isZero)
+            if (sum.IsZero)
             {
                 return;
             }
@@ -134,7 +134,7 @@ namespace ProjectMKPBTESTY
         {
             if (IsZero)
                 if (anObject is ICryptoCurrency)
-                    return ((ICryptoCurrency)anObject).isZero;
+                    return ((ICryptoCurrency)anObject).IsZero;
 
             if (anObject is Vault)
             {
