@@ -59,7 +59,7 @@ namespace ProjectMKPBTESTY
             Vault result = new Vault();
             if (factor != 0)
             {
-                foreach (CryptoCurrency c in Cryptos)
+                foreach (CryptoCurrency c in CryptoCurrencies)
                 {
                     result.AppendCrypto((CryptoCurrency)c.Multiply(factor));
                 }
@@ -70,7 +70,7 @@ namespace ProjectMKPBTESTY
         public ICryptoCurrency Negate()
         {
             Vault result = new Vault();
-            foreach (CryptoCurrency c in Cryptos)
+            foreach (CryptoCurrency c in CryptoCurrencies)
             {
                 result.AppendCrypto((CryptoCurrency)c.Negate());
             }
@@ -83,31 +83,27 @@ namespace ProjectMKPBTESTY
         }
         private ICryptoCurrency Simplify()
         {
-            if (Cryptos.Count == 1)
-                return (ICryptoCurrency)Cryptos[0];
+            if (CryptoCurrencies.Count == 1)
+                return (ICryptoCurrency)CryptoCurrencies[0];
             return this;
         }
         
-        public ICryptoCurrency Substract(ICryptoCurrency c)
-        {
-            return Add(c.Negate());
-        }
         public override String ToString()
         {
             StringBuilder buffer = new StringBuilder();
             buffer.Append("{");
-            foreach (CryptoCurrency m in Cryptos)
+            foreach (CryptoCurrency m in CryptoCurrencies)
                 buffer.Append(m);
             buffer.Append("}");
             return buffer.ToString();
         }
         public bool IsZero
         {
-            get { return Cryptos.Count == 0; }
+            get { return CryptoCurrencies.Count == 0; }
         }
         private void AppendVault(Vault v)
         {
-            foreach (CryptoCurrency c in v.Cryptos)
+            foreach (CryptoCurrency c in v.CryptoCurrencies)
             {
                 AppendCrypto(c);
             }
@@ -117,17 +113,17 @@ namespace ProjectMKPBTESTY
             ICryptoCurrency old = FindCrypto(c.Currency);
             if (old == null)
             {
-                Cryptos.Add(c);
+                CryptoCurrencies.Add(c);
                 return;
 
             }
-            Cryptos.Remove(old);
+            CryptoCurrencies.Remove(old);
             ICryptoCurrency sum = old.Add(c);
             if (sum.isZero)
             {
                 return;
             }
-            Cryptos.Add(sum);
+            CryptoCurrencies.Add(sum);
         }
         private bool Contains(CryptoCurrency c)
         {
@@ -143,10 +139,10 @@ namespace ProjectMKPBTESTY
             if (anObject is Vault)
             {
                 Vault v = (Vault)anObject;
-                if (v.Cryptos.Count != Cryptos.Count)
+                if (v.CryptoCurrencies.Count != CryptoCurrencies.Count)
                     return false;
 
-                foreach (CryptoCurrency c in Cryptos)
+                foreach (CryptoCurrency c in CryptoCurrencies)
                 {
                     if (!v.Contains(c))
                         return false;
@@ -157,7 +153,7 @@ namespace ProjectMKPBTESTY
         }
         private CryptoCurrency FindCrypto(String currency)
         {
-            foreach (CryptoCurrency c in Cryptos)
+            foreach (CryptoCurrency c in CryptoCurrencies)
             {
                 if (c.Currency.Equals(currency))
                     return c;
