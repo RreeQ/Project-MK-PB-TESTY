@@ -1,0 +1,11 @@
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\Project-MK-PB-TESTY\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\Project-MK-PB-TESTY\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\Project-MK-PB-TESTY\bin\Debug\nunit.engine.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\Project-MK-PB-TESTY\bin\Debug\nunit.engine.api.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\Project-MK-PB-TESTY\bin\Debug\Project-MK-PB-TESTY.exe
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\Project-MK-PB-TESTY\bin\Debug\Project-MK-PB-TESTY.pdb
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\Project-MK-PB-TESTY\x86\Debug\Project-MK-PB-TESTY.csprojResolveAssemblyReference.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\Project-MK-PB-TESTY\x86\Debug\Project-MK-PB-TESTY.csproj.CoreCompileInputs.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\Project-MK-PB-TESTY\x86\Debug\Project-MK-PB-TESTY.csproj.CopyComplete
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\Project-MK-PB-TESTY\x86\Debug\Project-MK-PB-TESTY.exe
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\Project-MK-PB-TESTY\x86\Debug\Project-MK-PB-TESTY.pdb

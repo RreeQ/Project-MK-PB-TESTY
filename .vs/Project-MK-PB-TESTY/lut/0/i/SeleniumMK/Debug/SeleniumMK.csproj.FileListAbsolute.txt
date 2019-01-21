@@ -1,0 +1,17 @@
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\pl\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\NUnit3.TestAdapter.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\NUnit3.TestAdapter.pdb
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\nunit.engine.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\nunit.engine.api.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\SeleniumMK.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\b\SeleniumMK\bin\Debug\SeleniumMK.pdb
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\SeleniumMK\Debug\SeleniumMK.csprojResolveAssemblyReference.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\SeleniumMK\Debug\SeleniumMK.csproj.CoreCompileInputs.cache
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\SeleniumMK\Debug\SeleniumMK.csproj.CopyComplete
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\SeleniumMK\Debug\SeleniumMK.dll
+C:\Users\marci\Documents\GitHub\Project-MK-PB-TESTY\.vs\Project-MK-PB-TESTY\lut\0\i\SeleniumMK\Debug\SeleniumMK.pdb
