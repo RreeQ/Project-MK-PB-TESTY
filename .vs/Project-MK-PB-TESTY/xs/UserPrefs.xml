@@ -1,20 +1,29 @@
 ﻿<Properties StartupConfiguration="{A17AB609-F2B2-4270-9C5C-39EF1B65E854}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="SeleniumMKmacVersion/Test.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project-MK-PB-TESTY/Testy.cs">
     <Files>
-      <File FileName="SeleniumMKmacVersion/Test.cs" Line="1" Column="1" />
+      <File FileName="SeleniumMKmacVersion/Test.cs" Line="81" Column="13" />
+      <File FileName="Project-MK-PB-TESTY/Program.cs" Line="1" Column="1" />
+      <File FileName="Project-MK-PB-TESTY/Vault.cs" Line="1" Column="1" />
+      <File FileName="Project-MK-PB-TESTY/CryptoCurrency.cs" Line="1" Column="1" />
+      <File FileName="Project-MK-PB-TESTY/ICryptoCurrency.cs" Line="1" Column="1" />
+      <File FileName="Project-MK-PB-TESTY/Testy.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Project-MK-PB-TESTY" expanded="True">
-            <Node name="Project-MK-PB-TESTY" expanded="True" />
-            <Node name="SeleniumMKmacVersion" expanded="True" selected="True" />
+            <Node name="Project-MK-PB-TESTY" expanded="True">
+              <Node name="Testy.cs" selected="True" />
+            </Node>
+            <Node name="SeleniumMKmacVersion" expanded="True" />
           </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Project-MK-PB-TESTY" expanded="True" selected="True" />
+          <Node name="Project-MK-PB-TESTY" expanded="True">
+            <Node name="Project-MK-PB-TESTY" selected="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
@@ -26,5 +35,4 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.SeleniumMKmacVersion FirstBuild="True" />
 </Properties>

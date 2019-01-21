@@ -39,6 +39,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vault.cs" />
+    <Compile Include="CryptoCurrency.cs" />
+    <Compile Include="ICryptoCurrency.cs" />
+    <Compile Include="Testy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
