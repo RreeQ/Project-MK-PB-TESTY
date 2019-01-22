@@ -37,7 +37,10 @@ namespace ProjectMKPBTESTY
             }
         }
 
-        public bool isZero => throw new NotImplementedException();
+        public bool IsZero
+        {
+            get { return CryptoCurrencies.Count == 0; }
+        }
 
         public ICryptoCurrency Add(ICryptoCurrency value)
         {
@@ -87,6 +90,16 @@ namespace ProjectMKPBTESTY
                 return (ICryptoCurrency)CryptoCurrencies[0];
             return this;
         }
+
+        public override int GetHashCode()
+        {
+            int hash = 0;
+            foreach (CryptoCurrency c in CryptoCurrencies)
+            {
+                hash ^= c.GetHashCode();
+            }
+            return hash;
+        }
         
         public override String ToString()
         {
@@ -97,10 +110,7 @@ namespace ProjectMKPBTESTY
             buffer.Append("}");
             return buffer.ToString();
         }
-        public bool IsZero
-        {
-            get { return CryptoCurrencies.Count == 0; }
-        }
+        
         private void AppendVault(Vault v)
         {
             foreach (CryptoCurrency c in v.CryptoCurrencies)
