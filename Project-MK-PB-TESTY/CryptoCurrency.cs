@@ -2,7 +2,7 @@
 using System.Text;
 namespace ProjectMKPBTESTY
 {
-    public class CryptoCurrency: ICryptoCurrency
+    class CryptoCurrency :ICryptoCurrency
     {
         public CryptoCurrency(int amount, String currency)
         {
@@ -13,36 +13,52 @@ namespace ProjectMKPBTESTY
 
         public String Currency { get; }
 
-        public bool isZero => throw new NotImplementedException();
-
-        public ICryptoCurrency Add(ICryptoCurrency value)
+        public override bool Equals(Object anObject)
         {
-            throw new NotImplementedException();
+            if (IsZero)
+                if (anObject is ICryptoCurrency)
+                    return ((ICryptoCurrency)anObject).IsZero;
+            if (anObject is CryptoCurrency)
+            {
+                CryptoCurrency aCrypto = (CryptoCurrency)anObject;
+                return aCrypto.Currency.Equals(Currency)
+                    && Amount == aCrypto.Amount;
+            }
+            return false;
         }
 
-        public ICryptoCurrency AddCrypto(CryptoCurrency c)
+        public bool IsZero
         {
-            throw new NotImplementedException();
+            get { return Amount == 0; }
         }
 
-        public ICryptoCurrency AddCryptoVault(Vault v)
+        public override int GetHashCode()
         {
-            throw new NotImplementedException();
+            return Currency.GetHashCode() + Amount;
+        }
+        public override String ToString()
+        {
+            StringBuilder buffer = new StringBuilder();
+            buffer.Append("[" + Amount + " " + Currency + "]");
+            return buffer.ToString();
         }
 
-        public ICryptoCurrency Multiply(ICryptoCurrency value)
+
+        public ICryptoCurrency Add(ICryptoCurrency value) => value.AddCrypto(this);
+
+        public ICryptoCurrency AddCrypto(CryptoCurrency value)
         {
-            throw new NotImplementedException();
+            if (value.Currency.Equals(Currency))
+                return new CryptoCurrency(Amount + value.Amount, Currency);
+            return new Vault(this, value);
         }
 
-        public ICryptoCurrency Negate()
-        {
-            throw new NotImplementedException();
-        }
+        public ICryptoCurrency AddCryptoVault(Vault v) => v.AddCrypto(this);
 
-        public ICryptoCurrency Substract(ICryptoCurrency value)
-        {
-            throw new NotImplementedException();
-        }
+        public ICryptoCurrency Multiply(int factor) => new CryptoCurrency(Amount * factor, Currency);
+
+        public ICryptoCurrency Negate() => new CryptoCurrency(-Amount, Currency);
+
+        public ICryptoCurrency Substract(ICryptoCurrency value) => Add(value.Negate());
     }
 }
