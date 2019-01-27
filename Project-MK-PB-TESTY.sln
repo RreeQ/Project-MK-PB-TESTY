@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumMKmacVersion", "Sel
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumMK", "SeleniumMK\SeleniumMK.csproj", "{3EE1752D-987F-48D6-A72D-905F0D5C6082}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumPB", "SeleniumPB\SeleniumPB.csproj", "{49391564-060F-4868-AAAF-FF221C1E5AD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,14 @@ Global
 		{3EE1752D-987F-48D6-A72D-905F0D5C6082}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3EE1752D-987F-48D6-A72D-905F0D5C6082}.Release|x86.ActiveCfg = Release|Any CPU
 		{3EE1752D-987F-48D6-A72D-905F0D5C6082}.Release|x86.Build.0 = Release|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Debug|x86.Build.0 = Debug|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Release|x86.ActiveCfg = Release|Any CPU
+		{49391564-060F-4868-AAAF-FF221C1E5AD4}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
