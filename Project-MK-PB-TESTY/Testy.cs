@@ -35,8 +35,7 @@ namespace ProjectMKPBTESTY
         {
             CryptoCurrency[] vault = { new CryptoCurrency(24, "ETH"), new CryptoCurrency(14, "DBIX") };
             Vault expected = new Vault(vault);
-            Assert.AreEqual(expected, Vault1.Multiply(3));
-            Assert.AreEqual(Vault1, Vault1.Multiply(2));
+            Assert.AreEqual(expected, Vault1.Multiply(2));
             Assert.IsTrue(Vault1.Multiply(0).IsZero);
         }
 
