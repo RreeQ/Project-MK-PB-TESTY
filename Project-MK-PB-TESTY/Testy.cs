@@ -41,12 +41,27 @@ namespace ProjectMKPBTESTY
         }
 
         [Test]
-        public void UserCanSubstractVault_ReturnsExpectedValueAreEquals()
+        public void UserCanSubstractVault_ExpectedValueAreEquals_ReturnsTrue()
         {
             CryptoCurrency[] vault = { new CryptoCurrency(-2, "ETH"), new CryptoCurrency(-14, "DBIX") };
             Vault expected = new Vault(vault);
             Assert.AreEqual(expected, Vault1.Substract(Vault2));
         }
+        [Test]
+        public void UserCanAddVault_ExpectedVauleAreNotEquals_ReturnsTrue()
+        {
+            CryptoCurrency[] vault = { new CryptoCurrency(14, "ETH"), new CryptoCurrency(7, "DBIX") };
+            Vault expected = new Vault(vault);
+            Assert.AreNotEqual(expected, Vault1.Add(ETH14));
+        }
+        [Test]
+        public void UserCanNegateVault_ExpectedValuesAreNegative_ReturnsTrue()
+        {
+            CryptoCurrency[] vault = { new CryptoCurrency(-12, "ETH"), new CryptoCurrency(-7, "DBIX") };
+            Vault expected = new Vault(vault);
+            Assert.AreEqual(expected, Vault1.Negate());
+
+    }
 
     }
 }
