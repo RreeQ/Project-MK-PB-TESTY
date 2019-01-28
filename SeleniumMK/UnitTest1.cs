@@ -18,7 +18,7 @@ namespace SeleniumTest
         }
 
         [Test]
-        public void GoogleTest()
+        public void SeleniumMK()
         {
             _driver.Navigate().GoToUrl("https://www.x-kom.pl/");
             Random rnd = new Random();
@@ -40,7 +40,7 @@ namespace SeleniumTest
             _driver.FindElement(By.XPath("//*[@id='termsOfUseAcceptation']")).Click();
             _driver.FindElement(By.XPath("//*[@id='consent-0865a6f2e72120e8f807bbc8365f0793']")).Click();
             _driver.FindElement(By.XPath("//*[@id='consent-9a785ca7c529d901c6170cc000221a7e']")).Click();
-
+            
             _driver.FindElement(By.XPath("//*[@id='registrationForm']/div[6]/div[5]/div/button")).Click();
             System.Threading.Thread.Sleep(5000);
             var lookingfor = _driver.FindElement(By.XPath("//*[@id='searchBar']/div[1]/div[1]/input"));
