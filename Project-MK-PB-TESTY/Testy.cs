@@ -61,6 +61,25 @@ namespace ProjectMKPBTESTY
             Assert.AreEqual(expected, Vault1.Negate());
 
     }
+        [Test]
+        public void CheckingIfVaultCanHandleZeros_ExpectedZerosinETHandDBIX_ReturnsTrue()
+        {
+            Assert.IsTrue(Vault1.Substract(Vault1).IsZero);
+            CryptoCurrency[] vault = { new CryptoCurrency(0, "ETH"), new CryptoCurrency(0, "DBIX") };
+            Assert.IsTrue(new Vault(vault).IsZero);
+        }
+        [Test]
+        public void CryptoVaultHash_ExpectedValuesSameHashFromNewVaultAsFromSaved_ReturnsTrue()
+        {
+            Vault equal = new Vault(new CryptoCurrency(12, "ETH"), new CryptoCurrency(7, "DBIX"));
+            Assert.AreEqual(Vault1.GetHashCode(), equal.GetHashCode());
+        }
+        [Test]
+        public void JustSimpleTestingPrinting_ReturnsTrue()
+        {
+            Assert.AreEqual("[12 ETH]", ETH12.ToString());
+            Assert.AreEqual("[21 DBIX]", DBIX21.ToString());
+        }
 
     }
 }
